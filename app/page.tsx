@@ -1,4 +1,3 @@
-import Image from "next/image";
 import HeroSection from "./components/homeComponents/HeroSection";
 import Section from "./components/homeComponents/Section";
 import OurValueSection from "./components/homeComponents/OurValueSection";

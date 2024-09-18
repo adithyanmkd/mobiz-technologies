@@ -10,9 +10,8 @@ const HeroSection = () => {
           A Software House With Human Touch!
         </h1>
         <p className="mt-[28px] font-light text-[#65737E]">
-          At Mobiz, people are the core of business success, driving innovation
-          and growth. Our employees' mindset and experience define our
-          capabilities.
+          At Mobiz, we believe that people are the heart of any company.
+          They&apos;re the main driving force behind its business success.
         </p>
         <Link
           href={"/"}

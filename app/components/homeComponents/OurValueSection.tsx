@@ -16,7 +16,7 @@ const ourValues = [
   },
   {
     id: 3,
-    title: "on time Delivery",
+    title: "On Time Delivery",
     description:
       "Ensuring reliable, on-time delivery to meet your deadlines with precision and efficiency.",
   },
