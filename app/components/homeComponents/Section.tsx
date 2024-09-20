@@ -42,7 +42,7 @@ const Section = ({
           </div>
           <div className="flex">
             <Image
-              className={`w-full mt-[16px] rounded-[14px] lg:mt-0 lg:w-[80%] bg-red-400   ${imgAlign}`}
+              className={`w-full mt-[16px] rounded-[14px] lg:mt-0 lg:w-[80%]   ${imgAlign}`}
               src={imagePath}
               width={imgWidth}
               height={imgHeight}
