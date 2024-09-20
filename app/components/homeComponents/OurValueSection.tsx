@@ -25,7 +25,7 @@ const ourValues = [
 const OurValueSection = () => {
   return (
     <div className="bg-[#F2F5EF]">
-      <div className=" py-[32px] max-w-screen-xl mx-auto lg:px-12">
+      <div className="px-4 md:px-0 py-[32px] max-w-screen-xl mx-auto lg:px-12">
         <div className="pb-4 font-medium text-[30px] sm:text-[36px] max-w-[375px] mx-auto sm:max-w-[440px] md:max-w-[600px] lg:max-w-screen-xl lg:mr-auto lg:text-[50px] lg:mb-5">
           <h1 className="max-w-[550px] leading-[120%] mr-auto">Why Us?</h1>
         </div>

@@ -25,13 +25,13 @@ const Section = ({
   imgAlign,
 }: propsType) => {
   return (
-    <div className={`${bgColor} py-6 lg:py-12`}>
-      <div className="max-w-screen-xl mx-auto lg:px-12">
-        <div className="pb-4 font-medium text-[30px] sm:text-[36px] max-w-[375px] mx-auto sm:max-w-[440px] md:max-w-[600px] lg:max-w-screen-xl lg:mr-auto lg:text-[50px] lg:mb-2">
+    <div className={`${bgColor} py-6 `}>
+      <div className="max-w-screen-xl mx-auto px-4 md:px-0 lg:px-12">
+        <div className="pb-4 font-medium text-[30px] sm:text-[36px] max-w-[375px] mx-auto sm:max-w-[440px] md:max-w-[600px] lg:max-w-screen-xl lg:mr-auto lg:text-[50px] lg:mb-5">
           <h1 className="max-w-[550px] leading-[120%] mr-auto">{heading}</h1>
         </div>
         <div
-          className={`max-w-[375px] mx-auto sm:max-w-[440px] md:max-w-[600px] lg:max-w-screen-xl lg:flex ${flexDirection}`}
+          className={`max-w-[375px] mx-auto sm:max-w-[440px] md:max-w-[600px] lg:max-w-screen-xl lg:flex lg:${flexDirection}`}
         >
           <div>
             <p className="text-[#3F3F3F] text-justify leading-[180%]">
