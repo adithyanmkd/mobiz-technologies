@@ -11,17 +11,21 @@ const welcomeSectionContent = {
   imgWidth: 5760,
   imgHeight: 3840,
   altText: "welcome section image",
+  flexDirection: "lg:flex-row-reverse",
+  imgAlign: "mr-auto",
 };
 
-const whyUsContent = {
+const whatWeDoContent = {
   bgColor: "bg-white",
-  heading: "Why Us?",
+  heading: "What We Do",
   description:
     "At Mobiz, we specialize in creating customized solutions that cater to the unique needs of each client. Whether your goal is to streamline internal operations, enhance customer service, manage sales and collections, monitor and manage teams, or introduce new digital products, we offer the expertise to help you succeed.",
   imagePath: "/images/whyUs-section-image.jpg",
   imgWidth: 5374,
   imgHeight: 3583,
   altText: "why us section image",
+  flexDirection: "lg:flex-row",
+  imgAlign: "ml-auto",
 };
 
 export default function Home() {
@@ -29,7 +33,7 @@ export default function Home() {
     <main>
       <HeroSection />
       <Section {...welcomeSectionContent} />
-      <Section {...whyUsContent}></Section>
+      <Section {...whatWeDoContent}></Section>
       <OurValueSection />
     </main>
   );

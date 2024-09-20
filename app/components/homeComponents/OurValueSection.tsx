@@ -24,28 +24,39 @@ const ourValues = [
 
 const OurValueSection = () => {
   return (
-    <div className="bg-[#F2F5EF] py-[32px]">
-      <Line customStyles="max-w-[324px] mx-auto my-[16px] bg-black" />
-      {ourValues.map((data) => (
-        <div key={data.id} className="flex flex-col">
-          <div className="flex max-w-[324px] mx-auto">
-            <div>
-              <h2 className="text-[50px] mr-[37px]">0{data.id}</h2>
+    <div className="bg-[#F2F5EF]">
+      <div className=" py-[32px] max-w-screen-xl mx-auto lg:px-12">
+        <div className="pb-4 font-medium text-[30px] sm:text-[36px] max-w-[375px] mx-auto sm:max-w-[440px] md:max-w-[600px] lg:max-w-screen-xl lg:mr-auto lg:text-[50px] lg:mb-5">
+          <h1 className="max-w-[550px] leading-[120%] mr-auto">Why Us?</h1>
+        </div>
+        <div className="lg:px-12">
+          <Line customStyles="customLine" />
+        </div>
+        {ourValues.map((data) => (
+          <div key={data.id} className="flex flex-col max-w-[850px] mx-auto">
+            <div className="flex w-full max-w-[324px] mx-auto sm:max-w-[440px] md:max-w-[600px] lg:max-w-[840px] lg:mx-0 ">
+              <div className="w-24">
+                <h2 className="text-[50px]">0{data.id}</h2>
+              </div>
+              <div className=" w-full items-center sm:max-w-[440px] md:max-w-[600px]  lg:max-w-screen-lg lg:flex lg:justify-between">
+                <div>
+                  <h2 className="text-2xl font-medium text-[#2C2C2C] text-nowrap">
+                    {data.title}
+                  </h2>
+                </div>
+                <div>
+                  <p className="text-sm text-[#4C4C4C] max-w-[324px]">
+                    {data.description}
+                  </p>
+                </div>
+              </div>
             </div>
-            <div className="grid grid-cols-1 space-y-[14px]">
-              <div>
-                <h2 className="text-2xl font-medium text-[#2C2C2C]">
-                  {data.title}
-                </h2>
-              </div>
-              <div>
-                <p className="text-sm text-[#4C4C4C]">{data.description}</p>
-              </div>
+            <div>
+              <Line customStyles="customLine" />
             </div>
           </div>
-          <Line customStyles="max-w-[324px] mx-auto my-[16px] bg-black" />
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   );
 };

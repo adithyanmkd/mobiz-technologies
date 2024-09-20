@@ -3,7 +3,7 @@ import { Poppins } from "next/font/google";
 
 import "./globals.css";
 
-import Navbar from "./components/main/Navbar";
+import { NavbarCom } from "./components/main/NavbarCom";
 import Footer from "./components/main/Footer";
 
 export const metadata: Metadata = {
@@ -24,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${poppins.className} bg-[#FFFFFB]`}>
-        <Navbar />
+        <NavbarCom />
         <main>{children}</main>
         <Footer />
       </body>

@@ -4,9 +4,9 @@ import Image from "next/image";
 
 const FooterHeader = () => {
   return (
-    <div className="max-w-[324px] mx-auto py-6">
+    <div className="max-w-[324px] mx-auto">
       <h2 className="font-bold text-xl text-white">Mobiz Technologies</h2>
-      <p className="mt-5 leading-[160%] text-[#D2D2D2]">
+      <p className="mt-4 leading-[160%] text-[#D2D2D2]">
         Empower your business with our comprehensive IT Solutions
       </p>
       <div className="flex mt-[14px] space-x-4 ">

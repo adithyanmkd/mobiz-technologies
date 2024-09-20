@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.customLine {
+  @apply max-w-[324px] mx-auto my-[16px] bg-black sm:max-w-[440px] md:max-w-[600px] lg:max-w-[850px];
+}
