@@ -31,7 +31,7 @@ const Section = ({
           <h1 className="max-w-[550px] leading-[120%] mr-auto">{heading}</h1>
         </div>
         <div
-          className={`max-w-[375px] mx-auto sm:max-w-[440px] md:max-w-[600px] lg:max-w-screen-xl lg:flex lg:${flexDirection}`}
+          className={`max-w-[375px] mx-auto sm:max-w-[440px] md:max-w-[600px] lg:max-w-screen-xl lg:flex ${flexDirection}`}
         >
           <div>
             <p className="text-[#3F3F3F] text-justify leading-[180%]">
