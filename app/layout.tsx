@@ -3,8 +3,8 @@ import { Poppins } from "next/font/google";
 
 import "./globals.css";
 
-import { NavbarCom } from "./components/main/NavbarCom";
 import Footer from "./components/main/Footer";
+import CustomNavbar from "./components/main/CustomNavbar";
 
 export const metadata: Metadata = {
   title: "Mobiz Technologies",
@@ -24,8 +24,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${poppins.className} bg-[#FFFFFB]`}>
-        <NavbarCom />
-        <main>{children}</main>
+        <CustomNavbar />
+        <main className="">{children}</main>
         <Footer />
       </body>
     </html>

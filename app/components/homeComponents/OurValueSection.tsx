@@ -25,27 +25,27 @@ const ourValues = [
 const OurValueSection = () => {
   return (
     <div className="bg-[#F2F5EF]">
-      <div className="px-4 md:px-0 py-[32px] max-w-screen-xl mx-auto lg:px-12">
-        <div className="pb-4 font-medium text-[30px] sm:text-[36px] max-w-[375px] mx-auto sm:max-w-[440px] md:max-w-[600px] lg:max-w-screen-xl lg:mr-auto lg:text-[50px] lg:mb-5">
-          <h1 className="max-w-[550px] leading-[120%] mr-auto">Why Us?</h1>
+      <div className="mx-auto max-w-screen-xl px-4 py-[32px] md:px-0 lg:px-12">
+        <div className="mx-auto max-w-[375px] pb-4 text-[30px] font-medium sm:max-w-[440px] sm:text-[36px] md:max-w-[600px] lg:mb-5 lg:mr-auto lg:max-w-screen-xl lg:text-[50px]">
+          <h1 className="mr-auto max-w-[550px] leading-[120%]">Why Us?</h1>
         </div>
         <div className="lg:px-12">
           <Line customStyles="customLine" />
         </div>
         {ourValues.map((data) => (
-          <div key={data.id} className="flex flex-col max-w-[850px] mx-auto">
-            <div className="flex w-full max-w-[324px] mx-auto sm:max-w-[440px] md:max-w-[600px] lg:max-w-[840px] lg:mx-0 ">
+          <div key={data.id} className="mx-auto flex max-w-[850px] flex-col">
+            <div className="mx-auto flex w-full max-w-[324px] sm:max-w-[440px] md:max-w-[600px] lg:mx-0 lg:max-w-[840px]">
               <div className="w-24">
                 <h2 className="text-[50px]">0{data.id}</h2>
               </div>
-              <div className=" w-full items-center sm:max-w-[440px] md:max-w-[600px]  lg:max-w-screen-lg lg:flex lg:justify-between">
+              <div className="w-full items-center sm:max-w-[440px] md:max-w-[600px] lg:flex lg:max-w-screen-lg lg:justify-between">
                 <div>
-                  <h2 className="text-2xl font-medium text-[#2C2C2C] text-nowrap">
+                  <h2 className="text-nowrap text-2xl font-medium text-[#2C2C2C]">
                     {data.title}
                   </h2>
                 </div>
                 <div>
-                  <p className="text-sm text-[#4C4C4C] max-w-[324px]">
+                  <p className="max-w-[324px] text-sm text-[#4C4C4C]">
                     {data.description}
                   </p>
                 </div>

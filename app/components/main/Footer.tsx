@@ -5,15 +5,15 @@ import FooterContact from "../subComponents/FooterContact";
 
 const Footer = () => {
   return (
-    <div className="bg-[#1C1847] py-6 ">
-      <div className="grid mx-auto max-w-screen-xl md:grid-cols-2  lg:grid-cols-3">
+    <div className="bg-[#1C1847] py-6">
+      <div className="mx-auto grid max-w-screen-xl md:grid-cols-2 lg:grid-cols-3">
         <FooterHeader />
         <FooterLinks />
         <FooterContact />
       </div>
 
-      <div className="h-px w-full mx-auto max-w-[324px] my-6 md:max-w-screen-md md:w-[90%] lg:max-w-screen-xl lg:w-[92%] bg-[#DDDDDD]"></div>
-      <p className="text-xs text-center text-[#C1C1C1]">
+      <div className="mx-auto my-6 h-px w-full max-w-[324px] bg-[#DDDDDD] md:w-[90%] md:max-w-screen-md lg:w-[92%] lg:max-w-screen-xl"></div>
+      <p className="text-center text-xs text-[#C1C1C1]">
         © 2024 Mobiz Technologies. All Rights Reserved
       </p>
     </div>

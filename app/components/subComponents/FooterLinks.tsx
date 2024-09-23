@@ -50,13 +50,13 @@ const footerLinks = [
 
 const FooterLinks = () => {
   return (
-    <div className="max-w-[324px] w-full  mt-8 flex justify-between mx-auto text-[#D2D2D2] md:max-w-[380px]">
+    <div className="mx-auto mt-8 flex w-full max-w-[324px] justify-between text-[#D2D2D2] md:max-w-[380px]">
       {footerLinks.map((data) => (
         <ul key={data.id} className="space-y-1.5">
-          <h4 className="font-medium text-white pb-2">{data.linkHading}</h4>
+          <h4 className="pb-2 font-medium text-white">{data.linkHading}</h4>
           {data.links.map((link, index) => (
             <li key={index}>
-              <Link href={link.url} className="text-[#D2D2D2] text-xs">
+              <Link href={link.url} className="text-xs text-[#D2D2D2]">
                 {link.linkName}
               </Link>
             </li>

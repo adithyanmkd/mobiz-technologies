@@ -4,12 +4,12 @@ import Image from "next/image";
 
 const FooterHeader = () => {
   return (
-    <div className="max-w-[324px] mx-auto">
-      <h2 className="font-bold text-xl text-white">Mobiz Technologies</h2>
+    <div className="mx-auto max-w-[324px]">
+      <h2 className="text-xl font-bold text-white">Mobiz Technologies</h2>
       <p className="mt-4 leading-[160%] text-[#D2D2D2]">
         Empower your business with our comprehensive IT Solutions
       </p>
-      <div className="flex mt-[14px] space-x-4 ">
+      <div className="mt-[14px] flex space-x-4">
         <Link href={"/"}>
           <Image
             src={"/icons/facebook-icon.svg"}

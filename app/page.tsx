@@ -30,7 +30,7 @@ const whatWeDoContent = {
 
 export default function Home() {
   return (
-    <main>
+    <main className="pt-4">
       <HeroSection />
       <Section {...welcomeSectionContent} />
       <Section {...whatWeDoContent}></Section>

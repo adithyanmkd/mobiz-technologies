@@ -36,11 +36,11 @@ const items = [
 const FooterContact = () => {
   return (
     <div>
-      <div className="max-w-[324px] mx-auto mt-8">
+      <div className="mx-auto mt-8 max-w-[324px]">
         <h2 className="font-medium text-white">Contact Us</h2>
-        <ul className="space-y-2.5 mt-4">
+        <ul className="mt-4 space-y-2.5">
           {items.map((value, index) => (
-            <li key={index} className="flex text-xs space-x-2.5 text-[#D2D2D2]">
+            <li key={index} className="flex space-x-2.5 text-xs text-[#D2D2D2]">
               <div>
                 <Image
                   src={value.icon.iconPath}
