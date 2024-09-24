@@ -12,7 +12,7 @@ const items = [
     },
   },
   {
-    data: ["+91 9496 007 001", "+91 9496 007 001"],
+    data: ["+91 9496 007 001", "+91 9496 007 007"],
     icon: {
       iconPath: "/icons/phone-icon.svg",
       iconWidth: 20,

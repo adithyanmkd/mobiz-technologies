@@ -1,9 +1,10 @@
 import Image from "next/image";
 import React from "react";
+import { ReactNode } from "react";
 
 interface propsType {
   heading: string;
-  description: string;
+  description: ReactNode;
   imagePath: string;
   bgColor: string;
   imgWidth: number;

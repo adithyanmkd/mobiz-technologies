@@ -2,10 +2,13 @@ import React from "react";
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 
+import { PrimeReactProvider } from "primereact/api";
+
 import "./globals.css";
+import "primereact/resources/themes/lara-light-blue/theme.css";
 
 import Footer from "./components/main/Footer";
-import CustomNavbar from "./components/main/CustomNavbar";
+import Navbar from "./components/main/Navbar";
 
 export const metadata: Metadata = {
   title: "Mobiz Technologies",
@@ -25,7 +28,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${poppins.className} bg-[#FFFFFB]`}>
-        <CustomNavbar />
+        <PrimeReactProvider>
+          <Navbar />
+        </PrimeReactProvider>
+
         <main className="">{children}</main>
         <Footer />
       </body>

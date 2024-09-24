@@ -1,10 +1,9 @@
 import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 
 const HeroSection = () => {
   return (
-    <div className="mx-auto mt-[50px] flex max-w-screen-xl flex-col lg:flex-row lg:px-12">
+    <div className="mx-auto mt-[80px] flex max-w-screen-xl flex-col lg:flex-row lg:px-12">
       <div className="mx-auto max-w-[324px] sm:max-w-[400px] md:max-w-[550px]">
         <h1 className="text-center text-[30px] font-bold leading-[130%] sm:text-[34px] md:text-[38px] lg:text-left">
           A Software House With Human Touch!
@@ -13,12 +12,12 @@ const HeroSection = () => {
           At Mobiz, we believe that people are the heart of any company.
           They&apos;re the main driving force behind its business success.
         </p>
-        <Link
+        {/* <Link
           href={"/"}
           className="mt-4 inline-block rounded-[6px] bg-[#FF5733] px-[15px] py-2 font-medium text-white"
         >
           Get In Touch
-        </Link>
+        </Link> */}
       </div>
       <div className="mx-auto mt-[45px] max-w-[324px] sm:max-w-[400px] md:max-w-[550px] lg:mr-auto">
         <Image

@@ -54,9 +54,7 @@ const FooterHeader = () => {
   return (
     <div className="mx-auto max-w-[324px]">
       <h2 className="text-xl font-bold text-white">Mobiz Technologies</h2>
-      <p className="mt-4 leading-[160%] text-[#D2D2D2]">
-        Empower your business with our comprehensive IT Solutions
-      </p>
+      <p className="mt-4 leading-[160%] text-[#D2D2D2]">Follow Us!</p>
       <div className="mt-[14px] flex space-x-4">
         {socialMedia.map((value, index) => (
           <Link key={index} href={value.href}>
