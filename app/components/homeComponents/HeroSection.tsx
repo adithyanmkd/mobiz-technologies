@@ -18,6 +18,7 @@ const HeroSection = () => {
         >
           Get In Touch
         </Link> */}
+        {/* <div className="mt-4 h-32 w-full rounded-xl bg-[#EEF4FF] shadow-md shadow-[#9cbfff]"></div> */}
       </div>
       <div className="mx-auto mt-[45px] max-w-[324px] sm:max-w-[400px] md:max-w-[550px] lg:mr-auto">
         <Image

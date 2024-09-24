@@ -193,6 +193,11 @@ export default function Navbar() {
           icon: "pi pi-bolt",
           className: "font-normal ",
         },
+        {
+          label: "Mobiz Laundry Management Solution",
+          icon: "pi pi-bolt",
+          className: "font-normal ",
+        },
       ],
     },
     {
