@@ -219,7 +219,7 @@ export default function Navbar() {
   ];
 
   return (
-    <div className="fixed mx-auto w-full bg-white shadow-md">
+    <div className="fixed z-30 mx-auto w-full bg-white shadow-md">
       <Menubar
         id="menubarCustom"
         className="mx-auto flex max-w-screen-xl justify-between bg-transparent"

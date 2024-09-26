@@ -11,15 +11,23 @@ const footerLinks = [
         url: "/",
       },
       {
-        linkName: "Services",
-        url: "/",
-      },
-      {
         linkName: "About Us",
         url: "/",
       },
       {
-        linkName: "Contact Us",
+        linkName: "Services",
+        url: "/",
+      },
+      {
+        linkName: "Products",
+        url: "/",
+      },
+      {
+        linkName: "Our Team",
+        url: "/",
+      },
+      {
+        linkName: "Career",
         url: "/",
       },
     ],
