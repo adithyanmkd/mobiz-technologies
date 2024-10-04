@@ -31,8 +31,7 @@ export default function RootLayout({
         <PrimeReactProvider>
           <Navbar />
         </PrimeReactProvider>
-
-        <main className="">{children}</main>
+        <main>{children}</main>
         <Footer />
       </body>
     </html>

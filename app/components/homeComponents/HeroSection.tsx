@@ -1,18 +1,18 @@
 import Image from "next/image";
 import React from "react";
-import { LampEffect } from "./LampEffect";
 
 const HeroSection = () => {
   return (
     <div className="mx-auto mt-[80px] flex max-w-screen-xl flex-col lg:flex-row lg:px-12">
-      <LampEffect />
       <div className="mx-auto max-w-[324px] sm:max-w-[400px] md:max-w-[550px]">
         <h1 className="text-center text-[30px] font-bold leading-[130%] sm:text-[34px] md:text-[38px] lg:text-left">
           A Software House With Human Touch!
         </h1>
         <p className="mt-[28px] font-light leading-[160%] text-[#65737E]">
           At Mobiz, we believe that people are the heart of any company.
-          They&apos;re the main driving force behind its business success.
+          They&apos;re the main driving force behind its business success. The
+          capabilities of a software development company, its brain and muscle,
+          are in the mindset and experience of its employees.
         </p>
         {/* <Link
           href={"/"}

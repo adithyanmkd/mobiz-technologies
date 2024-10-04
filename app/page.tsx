@@ -1,7 +1,8 @@
-// import HeroSection from "./components/homeComponents/HeroSection";
+import HeroSection from "./components/homeComponents/HeroSection";
 import Section from "./components/homeComponents/Section";
 import OurValueSection from "./components/homeComponents/OurValueSection";
 import { LampEffect } from "./components/homeComponents/LampEffect";
+import React from "react";
 
 const welcomeSectionContent = {
   bgColor: "bg-[#E7E6EE]",
@@ -62,10 +63,7 @@ const whatWeDoContent = {
 export default function Home() {
   return (
     <main className="pt-4">
-      <div className="-z-40">
-        <LampEffect />
-      </div>
-
+      <HeroSection />
       <Section {...welcomeSectionContent} />
       <Section {...whatWeDoContent}></Section>
       <OurValueSection />

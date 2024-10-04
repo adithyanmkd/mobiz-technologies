@@ -25,7 +25,7 @@ const items = [
       "UG-3, 12/780 Centre Point Atrium, Old Check Post Mannarkkad- Anakatty Main Road, PO, Mannarkkad, Kerala 678582",
     ],
     icon: {
-      iconPath: "/icons/location-icon.svg",
+      iconPath: "/icons/location-white.svg",
       iconWidth: 20,
       iconheight: 26,
       alt: "location icon",

@@ -19,6 +19,7 @@ export default function Navbar() {
     {
       label: "Home",
       icon: "pi pi-home",
+      url: "/",
       className: "font-medium border-b md:border-none",
     },
     {
@@ -213,6 +214,7 @@ export default function Navbar() {
     {
       id: "contactBtn",
       label: "Contact Us ",
+      url: "contact",
       icon: "pi pi-envelope",
       className: "py-4 md:py-0",
     },
